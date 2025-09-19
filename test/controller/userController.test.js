@@ -25,7 +25,7 @@ describe('User Controller', ()=>{
                 email:"alice@email.com",
                 password:"123456"
             })
-            expect(resposta.status).to.equal(201)
+            expect(resposta.status).to.equal(201);
         })
     })
 

@@ -28,7 +28,7 @@ describe('Checkout Controller', ()=>{
                     paymentMethod:"",
                     cardData:""
                 })
-                expect(resposta.body).to.have.property('error','Token inválido');
+                expect(resposta.body).to.have.property('error','Token inválido')
         })
     })
 });
