@@ -27,7 +27,6 @@ jobs:
 
     - name: Run tests controller
       run: npm run test-controller
-      continue-on-error: true
 
     - name: Subir a Api
       run: npm start &
