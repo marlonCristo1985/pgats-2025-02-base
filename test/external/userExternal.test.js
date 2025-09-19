@@ -1,7 +1,6 @@
 const request = require('supertest');
 const { expect } = require('chai');
 
-const app = require('../../rest/app')
 
 describe('User', () => {
     describe('POST /api/users', () => {
