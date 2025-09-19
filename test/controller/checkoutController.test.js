@@ -47,6 +47,7 @@ describe('Checkout Controller', ()=>{
                     cardData:""
                 })
                 expect(resposta.body).to.have.property('error','Token inválido');
+            sinon.restore();
         })
     })
 });
