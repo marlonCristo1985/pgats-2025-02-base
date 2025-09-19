@@ -17,7 +17,7 @@ describe('User Controller', ()=>{
             expect(resposta.status).to.equal(400)
         })
         
-        it.only('Quando informo credenciais válidas de um usuário devo receber 201 ',async()=>{
+        it('Quando informo credenciais válidas de um usuário devo receber 201 ',async()=>{
             const resposta = await request(app)
             .post('/api/users/register')
             .send({
