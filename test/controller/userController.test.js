@@ -21,10 +21,12 @@ describe('User Controller', ()=>{
             const resposta = await request(app)
             .post('/api/users/register')
             .send({
-                name:"Alice",
-                email:"alice@email.com",
-                password:"123456"
+                name:"jamile",
+                email:"jamile@email.com",
+                password: 123456
             })
+            console.log(resposta.status)
+            console.log(resposta.body)
             expect(resposta.status).to.equal(201);
         })
     })
