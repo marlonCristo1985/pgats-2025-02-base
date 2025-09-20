@@ -1,0 +1,14 @@
+{
+   "valorFinal": 2200,
+   "userId": 5,
+   "items":[
+      {
+         "productId":2,
+         "quantity":10
+      }
+   ],
+   "freight":200,
+   "paymentMethod":"boleto",
+   "total":2200
+}
+
